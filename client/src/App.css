@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.897);
+}
+
+.navbar-toggler{
+  box-sizing: border-box;
+  margin-left: 85%;
+  margin-top: -10px;
+}
+
+.nav-item{
+  margin-right: 60px;
+  color: rgb(6, 6, 12);
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3ms ease;
+}
+
+
+
+.navbar-brand span{
+  /* color: rgb(37, 37, 200); */
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbarSupportedContent > ul >li:nth-child(n) >  a{
+  color: #fff;
+}
+
+#navbarSupportedContent > ul >li:nth-child(n) >  a:hover{
+  color: rgb(73, 73, 190);
+}
+
+.home{
+  display: flex;
+  background-image: url("./assets/images/bg.jpg") ;
+  width: 100%;
+  height: 90vh;
+  min-height: 500px;
+  flex-direction: column;
+  font-family: 'sans-serif';
+}
+
+.text1{
+  margin-top: 6%;
+  margin-left: 43%;
+  color:rgb(250, 183, 0);
+  font-size: 50px;
+  font-weight: 500;
+}
+.text2{
+  margin-left: 45%;
+  
+  font-size: 50px;
+  color:#fff44f;
+}
+.text3{
+  
+  margin-left: 35%; 
+  font-size: 50px;
+  color:#ffff;
+}
+
+.text2 span{
+  color: rgb(143, 189, 18);
+}
+
+.text3 span{
+  color: rgb(168, 64, 22);
+}
+
+.signup-content{
+  display: flex;
+  align-self: center;
+}
+
+.signup{
+  margin: 30px auto;
+  width: 60%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 2rem;
+
+}
+
+.left img{
+  height: 550px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+  .right{
+    width: 60%;
+  }
+
+  .title{
+    margin-top: 10px;
+    font-family: 'sari-san';
+    text-align: center;
+    color: black;
+    font-weight: 600;
+  }
+
+  .register-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    width: 350px;
+    outline:none ;
+    }
+
+  .fas{
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+
+  button{
+    margin: 10px;
+    background-color: rgb(92, 56, 221);
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius:  0.5rem;
+    border: none;
+  }
+
+  button:hover{
+    color: black;
+  }
+
+  .login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .login{
+    margin: 150px auto;
+    width: 30%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 2rem;
+  
+  }
+  .login-button{
+    margin-top: 30px;
+    margin-left: 144px;
+    background-color: rgb(92, 56, 221);
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius:  0.5rem;
+    border: none;
+  }
+
+  .login-button:hover{
+    color: black;
+  }
