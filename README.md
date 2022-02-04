@@ -1,2 +1,14 @@
 
-<h1>Registration_Form</h1>
+#Registration_Form
+
+##Frontend 
+###React
+
+##Backend
+###Node
+###Express
+
+##Database
+###Mongodb
+
+
