@@ -1,14 +1,14 @@
 
-#Registration_Form
+# Registration_Form
 
-##Frontend 
-###React
+## Frontend 
+### React
 
-##Backend
-###Node
-###Express
+## Backend
+### Node
+### Express
 
-##Database
-###Mongodb
+## Database
+### Mongodb
 
 
